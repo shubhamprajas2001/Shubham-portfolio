@@ -3,14 +3,14 @@ export const profile = {
   name: 'Shubham Kumar',
   role: 'Salesforce Consultant',
   location: 'India',
-  pitch: 'I build Apex, Lightning and OmniStudio solutions, configure CPQ, and automate real estate and sales processes on Salesforce.',
+  pitch: 'I build Apex and Lightning solutions, configure CPQ, and automate real estate and sales processes on Salesforce.',
   about: [
-    'I am a Salesforce Consultant at Fexle Services Private Limited, working on Salesforce since May 2022. I have contributed to design, development and testing across real estate projects built on the Salesforce platform.',
-    'I work with Apex, triggers, batch classes, Aura components, LWC, Visualforce and Experience Cloud, and I automate with Flows, Approval Processes and workflow rules. I also configure Salesforce CPQ and build with OmniStudio (FlexCards, OmniScripts, Integration Procedures and DataRaptors).',
+    'I am a Salesforce Consultant at Fexle Services Private Limited, with 4+ years on Salesforce (since May 2022). I have contributed to design, development and testing across real estate projects built on the Salesforce platform.',
+    'I work with Apex, triggers, batch classes, Aura components, LWC, Visualforce and Experience Cloud, and I automate with Flows, Approval Processes and workflow rules. I also configure Salesforce CPQ, and I handle production support and bug fixes.',
     'I deploy with the Ant migration tool and Change Sets, and I hold 4 Salesforce certifications.',
   ],
   facts: [
-    ['Experience', 'Since May 2022'],
+    ['Experience', '4+ years on Salesforce'],
     ['Company', 'Fexle Services Private Limited'],
     ['Domain', 'Real estate'],
     ['Certified', 'Associate, Platform Developer I, AI Associate, Data Cloud Consultant'],
@@ -29,7 +29,7 @@ export const links = {
 // The 12 skill tiles. They stay in the sidebar and light up for whatever is in view.
 export const skills = [
   'Apex', 'Apex Triggers', 'Batch Apex', 'SOQL/SOSL',
-  'LWC', 'Aura', 'Visualforce', 'OmniStudio',
+  'LWC', 'Aura', 'Visualforce', 'Experience Cloud',
   'Flows', 'Approval Process', 'CPQ', 'CI/CD',
 ];
 
@@ -38,7 +38,7 @@ export const roles = [
     company: 'Fexle Services Private Limited',
     title: 'Consultant, Salesforce Development',
     when: 'May 2022 – Present',
-    stack: ['Apex', 'LWC', 'Aura', 'OmniStudio', 'CPQ'],
+    stack: ['Apex', 'LWC', 'Aura', 'Visualforce', 'CPQ'],
     points: [
       'Contributed to the design, development and testing phases of Salesforce projects.',
       'Worked with Lightning components, Lightning Web Components and the Lightning Design System.',
@@ -48,7 +48,7 @@ export const roles = [
       'Built with Apex, triggers, test classes, Visualforce pages and Aura components.',
       'Deployed with the Ant migration tool and Change Sets.',
       'Configured Salesforce CPQ: products, price books, price rules, quote templates and guided selling. Created custom product rules (selection, validation, alert), product bundles, features, options and constraint rules, and price rules with lookup queries and discount schedules.',
-      'Worked with OmniStudio: FlexCards, OmniScripts, Integration Procedures, DataRaptors (Data Mappers) and Decision Matrices.',
+      'Provided production support and bug fixes, and worked well in teams, communicating effectively and learning quickly.',
     ],
   },
 ];
@@ -114,8 +114,7 @@ export const projects = [
 
 export const skillGroups = [
   ['Backend', 'Apex, Apex Triggers, Batch Apex, SOQL/SOSL, Test Classes'],
-  ['Frontend', 'Lightning Web Components (LWC), Aura, Visualforce, Lightning Design System, JavaScript, CSS'],
-  ['OmniStudio', 'FlexCards, OmniScripts, Integration Procedures, DataRaptors, Decision Matrices'],
+  ['Frontend', 'Lightning Web Components (LWC), Aura, Visualforce, Lightning Design System, JavaScript, HTML, CSS'],
   ['CPQ', 'Products, price books, price rules, quote templates, bundles, discount schedules'],
   ['Automation', 'Lightning Flow Builder, Approval Processes, Workflow Rules'],
   ['Administration', 'Configuration, security model, customization, Experience Cloud'],
@@ -149,7 +148,7 @@ export const categories = {
 };
 export const skillCat = {
   'Apex': 'apex', 'Apex Triggers': 'apex', 'Batch Apex': 'apex', 'SOQL/SOSL': 'apex',
-  'LWC': 'lwc', 'Aura': 'lwc', 'Visualforce': 'lwc', 'OmniStudio': 'lwc',
+  'LWC': 'lwc', 'Aura': 'lwc', 'Visualforce': 'lwc',
   'Flows': 'auto', 'Approval Process': 'auto',
   'CPQ': 'cloud', 'Experience Cloud': 'cloud',
   'CI/CD': 'integ',
