@@ -114,15 +114,10 @@ function initLimits() {
   // projects opened: click or <details> toggle inside #work
   const work = document.getElementById('work');
   if (work) {
-    const key = (t) => {
-      const card = t.closest('[data-project],article,details,li,.card');
-      if (!card || card === work) return null;
-      return card.dataset.project || $('h3,h4,summary,strong', card)?.textContent.trim() || card;
-    };
-    const mark = (t) => { const k = key(t); if (k && t.closest('a,button,summary,[role=button],[tabindex],details')) { limits.projects.add(k); render(); } };
+    // The expand control is the project name button (table row) or the "Show details" button (solution card).
+    const key = (btn) => btn.classList.contains('proj-btn') ? btn.textContent.trim() : $('h4', btn.closest('article'))?.textContent.trim() || btn;
+    const mark = (t) => { const btn = t.closest('[data-x]'); if (btn && work.contains(btn)) { limits.projects.add(key(btn)); render(); } };
     work.addEventListener('click', (e) => mark(e.target));
-    work.addEventListener('toggle', (e) => { if (e.target.open) mark(e.target); }, true);
-    work.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') mark(e.target); });
   }
   addEventListener('project-opened', (e) => { limits.projects.add(e.detail ?? limits.projects.size); render(); });
   addEventListener('console-command', () => { limits.commands++; render(); });
