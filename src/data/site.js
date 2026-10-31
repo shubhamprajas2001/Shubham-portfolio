@@ -136,8 +136,8 @@ export const superbadges = [
 ];
 
 export const education = [
-  { degree: 'MCA, Artificial Intelligence', school: 'Vivekananda Global University, Jaipur', when: 'May 2024 – May 2026' },
-  { degree: 'BCA', school: 'Bon Maharaj Institute of Management & Technology, Mathura', when: 'Aug 2019 – Jul 2022' },
+  { degree: 'MCA, Master of Computer Applications', school: 'Vivekananda Global University, Jaipur', when: 'May 2024 – May 2026' },
+  { degree: 'BCA, Bachelor of Computer Applications', school: 'Bon Maharaj Institute of Management & Technology, Mathura', when: 'Aug 2019 – Jul 2022' },
 ];
 
 // Reusable solutions built independently of any client.
