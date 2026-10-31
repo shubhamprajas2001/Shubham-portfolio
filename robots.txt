@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shubhamprajas2001.github.io/Shubham-portfolio/sitemap.xml
