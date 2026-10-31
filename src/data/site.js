@@ -21,8 +21,8 @@ export const profile = {
 export const links = {
   email: 'shubham281202@gmail.com',
   phone: '7310730891',
-  linkedin: '',
-  trailhead: '',
+  linkedin: 'https://www.linkedin.com/in/shubham-prajas/',
+  trailhead: 'https://www.salesforce.com/trailblazer/shubhamkumar2001',
   github: 'https://github.com/shubhamprajas2001',
 };
 
