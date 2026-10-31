@@ -125,14 +125,14 @@ export const skillGroups = [
 export const certifications = [
   { img: 'ai-specialist.png', name: 'Agentforce Specialist', sub: 'Issued Jan 2025' },
   { img: 'ai-associate.png', name: 'AI Associate', sub: 'Oct 2024 – Feb 2026' },
-  { img: 'data-360.svg', name: 'Data 360 Consultant', sub: 'Issued Dec 2024' },
+  { img: 'data-360-consultant.png', name: 'Data 360 Consultant', sub: 'Issued Dec 2024' },
   { img: 'Platform-Developer-I.png', name: 'Platform Developer', sub: 'Issued May 2024' },
   { img: 'Associate.png', name: 'Platform Foundations', sub: 'Certification' },
 ];
 
 export const superbadges = [
   { img: 'apex-specialist.png', name: 'Apex Specialist', sub: 'Superbadge' },
-  { name: 'Approval Process Troubleshooting', sub: 'Superbadge unit' },
+  { img: 'approval-process-troubleshooting.png', name: 'Approval Process Troubleshooting', sub: 'Superbadge unit' },
 ];
 
 export const education = [
