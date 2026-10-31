@@ -1,19 +1,20 @@
 // All portfolio content lives here (sourced from the résumé). Edit text here only.
 export const profile = {
   name: 'Shubham Kumar',
-  role: 'Salesforce Consultant',
-  location: 'India',
+  role: 'Salesforce Developer',
+  location: 'Mathura, Uttar Pradesh, India',
   pitch: 'I build Apex and Lightning solutions, configure CPQ, and automate real estate and sales processes on Salesforce.',
   about: [
-    'I am a Salesforce Consultant at Fexle Services Private Limited, with 4+ years on Salesforce (since May 2022). I have contributed to design, development and testing across real estate projects built on the Salesforce platform.',
+    'I am a Salesforce Developer at Fexle Services Private Limited, with 4+ years on Salesforce (since May 2022). I have contributed to design, development and testing across real estate projects built on the Salesforce platform.',
     'I work with Apex, triggers, batch classes, Aura components, LWC, Visualforce and Experience Cloud, and I automate with Flows, Approval Processes and workflow rules. I also configure Salesforce CPQ, and I handle production support and bug fixes.',
-    'I deploy with the Ant migration tool and Change Sets, and I hold 4 Salesforce certifications.',
+    'I deploy with the Ant migration tool and Change Sets, and I hold 5 Salesforce certifications.',
   ],
   facts: [
     ['Experience', '4+ years on Salesforce'],
     ['Company', 'Fexle Services Private Limited'],
     ['Domain', 'Real estate'],
-    ['Certified', 'Associate, Platform Developer I, AI Associate, Data Cloud Consultant'],
+    ['Certified', 'Agentforce Specialist, AI Associate, Data 360 Consultant, Platform Developer, Platform Foundations'],
+    ['Based in', 'Mathura, India'],
     ['Superbadges', 'Apex Specialist, Approval Process Troubleshooting'],
   ],
 };
@@ -36,7 +37,7 @@ export const skills = [
 export const roles = [
   {
     company: 'Fexle Services Private Limited',
-    title: 'Consultant, Salesforce Development',
+    title: 'Salesforce Developer',
     when: 'May 2022 – Present',
     stack: ['Apex', 'LWC', 'Aura', 'Visualforce', 'CPQ'],
     points: [
@@ -122,10 +123,11 @@ export const skillGroups = [
 ];
 
 export const certifications = [
-  { img: 'Associate.png', name: 'Associate' },
-  { img: 'Platform-Developer-I.png', name: 'Platform Developer I' },
-  { img: 'ai-associate.png', name: 'AI Associate' },
-  { name: 'Data Cloud Consultant' },
+  { img: 'ai-specialist.png', name: 'Agentforce Specialist', sub: 'Issued Jan 2025' },
+  { img: 'ai-associate.png', name: 'AI Associate', sub: 'Oct 2024 – Feb 2026' },
+  { img: 'data-360.svg', name: 'Data 360 Consultant', sub: 'Issued Dec 2024' },
+  { img: 'Platform-Developer-I.png', name: 'Platform Developer', sub: 'Issued May 2024' },
+  { img: 'Associate.png', name: 'Platform Foundations', sub: 'Certification' },
 ];
 
 export const superbadges = [

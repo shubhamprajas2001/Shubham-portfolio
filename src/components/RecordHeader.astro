@@ -3,13 +3,14 @@ import '../styles/record.css';
 import { profile, links } from '../data/site.js';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const stages = [
-  { k: 'Learn', cat: 'cloud', d: 'Four Salesforce certifications and the Apex Specialist superbadge.' },
+  { k: 'Learn', cat: 'cloud', d: 'Five Salesforce certifications and the Apex Specialist superbadge.' },
   { k: 'Build', sub: 'Apex / LWC', cat: 'apex', d: 'Apex classes, triggers and batch jobs, with Lightning Web Components and Aura on the front end.' },
   { k: 'Integrate', cat: 'integ', d: 'A Connected App set up for the VTP project, with Apex classes behind it.' },
   { k: 'Automate', cat: 'auto', d: 'Flows, Approval Processes and workflow rules, plus CPQ pricing and product rules.' },
   { k: 'Ship', cat: 'lwc', d: 'Deployments with the Ant migration tool and Change Sets, up to production and Go-Live support.' },
 ];
 const fields = [
+  ['Location', profile.location],
   ['Experience', '4+ yrs'],
   ['Company', 'Fexle Services'],
   ['Domain', 'Real estate'],
@@ -25,8 +26,9 @@ const fields = [
       <p class="rh-pitch">{profile.pitch}</p>
     </div>
     <div class="rh-actions" role="group" aria-label="Actions">
-            <a class="rh-btn" href={`mailto:${links.email}`}>Email</a>
-      {links.linkedin && <a class="rh-btn" href={links.linkedin} target="_blank" rel="noopener noreferrer">Linkedin</a>}
+      <a class="rh-btn rh-btn-primary" href={`${base}Resume.pdf`} download="Shubham_Kumar_Resume.pdf">Résumé</a>
+      <a class="rh-btn" href={`mailto:${links.email}`}>Email</a>
+      {links.linkedin && <a class="rh-btn" href={links.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>}
       {links.trailhead && <a class="rh-btn" href={links.trailhead} target="_blank" rel="noopener noreferrer">Trailhead</a>}
       <a class="rh-btn" href={links.github} target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
