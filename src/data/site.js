@@ -135,7 +135,10 @@ export const superbadges = [
   { name: 'Approval Process Troubleshooting', sub: 'Superbadge unit' },
 ];
 
-export const education = [];
+export const education = [
+  { degree: 'MCA, Artificial Intelligence', school: 'Vivekananda Global University, Jaipur', when: 'May 2024 – May 2026' },
+  { degree: 'BCA', school: 'Bon Maharaj Institute of Management & Technology, Mathura', when: 'Aug 2019 – Jul 2022' },
+];
 
 // Reusable solutions built independently of any client.
 export const solutions = [];
